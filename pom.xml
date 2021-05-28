@@ -12,10 +12,12 @@
     <artifactId>tomcat</artifactId>
     <version>SpringFormApp</version>
     <packaging>war</packaging>
-    <name>tomcat</name>
+    <name>SpringFormApp</name>
     <description>Demo project for Spring Boot with TOmcat and jnkins</description>
     <properties>
         <java.version>11</java.version>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+
     </properties>
     <dependencies>
         <dependency>
