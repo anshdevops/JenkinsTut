@@ -10,7 +10,8 @@
     </parent>
     <groupId>com.jenkins</groupId>
     <artifactId>tomcat</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>SpringFormApp</version>
+    <packaging>war</packaging>
     <name>tomcat</name>
     <description>Demo project for Spring Boot with TOmcat and jnkins</description>
     <properties>
@@ -32,10 +33,13 @@
     <build>
         <plugins>
             <plugin>
+
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>SpringFormApp</finalName>
     </build>
+
 
 </project>

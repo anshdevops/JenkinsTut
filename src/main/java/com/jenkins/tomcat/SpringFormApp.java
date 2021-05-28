@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TomcatApplication {
+public class SpringFormApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(TomcatApplication.class, args);
-        System.out.println("Project Inititlized");
+        SpringApplication.run(SpringFormApp.class, args);
+        System.out.println("Project Initialized");
     }
 
 
