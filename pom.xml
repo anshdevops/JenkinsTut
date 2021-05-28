@@ -16,8 +16,6 @@
     <description>Demo project for Spring Boot with TOmcat and jnkins</description>
     <properties>
         <java.version>11</java.version>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-
     </properties>
     <dependencies>
         <dependency>
@@ -39,6 +37,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
         <finalName>SpringFormApp</finalName>
     </build>
